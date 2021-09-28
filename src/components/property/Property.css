@@ -1,0 +1,58 @@
+.property .property-list-item {
+  padding: 0 0 48px 0;
+  position: relative;
+}
+
+.property-list-item .card {
+  border: 0;
+}
+
+.property-list-item .card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.property-list-item .card-image {
+  border-radius: 4px;
+  height: 280px;
+}
+
+.proterty-detail .details {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2d2d2d;
+}
+
+.proterty-detail .price {
+  font-size: 26px;
+  font-weight: 700;
+  color: #2d2d2d;
+}
+
+.proterty-detail .address {
+  font-size: 15px;
+  font-weight: 400;
+  color: #2d2d2d;
+}
+
+.proterty-detail .listDate {
+  font-size: 14px;
+  font-weight: 400;
+  color: #979797;
+}
+
+.property-list-item button.favorite {
+  border: 0;
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 12px;
+  margin-right: 25px;
+}
+
+@media (min-width: 768px) {
+  .property-list-item .card {
+    margin: 0 15px;
+  }
+}
